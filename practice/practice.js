@@ -83,7 +83,7 @@ const user = {
 
 
    String.prototype.truelength = function(){
-    console.log(`This true length is : ${this.trimEnd()}`)
+    console.log(`This true length is : ${this.trim().length}`)
    };
    let myName = "pradip   ";
 
