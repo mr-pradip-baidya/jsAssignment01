@@ -2,7 +2,7 @@
 // 04. Declare a varibale and assign string value to it and check if the string contains a word Script using includes() method.
 
 let text = "Hello world, welcome to the universe.";
-let result = text.includes("Hello")
+let result = text.includes("universe")
 
 // console.log(result);
 
@@ -18,7 +18,7 @@ let result1 = x1.includes(false)
 // console.log(result1)
 
 let x2 = [1, 2, 3];
-let result2 = x2.includes(3,-3)
+let result2 = x2.includes(3,2)
 console.log(result2)
 
 

@@ -9,4 +9,4 @@ let person = {
     materialsStatus : 'football player',
     country : 'argentina'
 }
-// console.log( `The  first name is ${person.firstName}`, `and the last name is ${person.lastName}`, `and age is ${person.age}`)
+console.log( `The  first name is ${person.firstName}`, `and the last name is ${person.lastName}`, `and age is ${person.age}`)
