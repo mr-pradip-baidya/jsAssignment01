@@ -3,7 +3,7 @@
 // 	   *
 // 	   **
 // 	   ***
-	
+
 // 	b. Print a square pattern, if the input is 3 then the output should be similar to the given output
 // 	   ***
 // 	   ***
@@ -19,17 +19,12 @@
 
 // (a)
 
-for(var i=1; i<=3; i++){
-    // console.log("Lily ".repeat(i));
- } 
+for (var i = 1; i <= 3; i++) {
+  console.log("* ".repeat(i));
+}
  //or
 
- let n = 5;
- let string = "";
- for (let i = 1; i <= n; i++) {
-   for (let j = 0; j < i; j++) {
-     string += "*";
-   }
-   string += "\n";
- }
- console.log(string);
+//  for(let i=1; i<4; i++){
+//   for(let j=1; j<=4; j++)
+  // console.log(i)
+//  }

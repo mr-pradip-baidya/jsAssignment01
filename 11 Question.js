@@ -31,15 +31,18 @@ let myMinute = yourDate.getMinutes()
 // console.log(myMinute) // expected 8
 
 
+
+//Problem
+
 let mySecond = yourDate.getSeconds()
-// console.log(mySecond)
-
-let fullSecond = new Date("January 1, 1970")
+// console.log(mySecond) 
 
 
-let mySecond1 = fullSecond.getSeconds()
-    // console.log(mySecond1)
+//  Find out the numbers of seconds elapsed from January 1, 1970 to now.
 
+    let past = new Date('1970-01-01');
+    let now = new Date();
+    let elapsed = (now - past);
+    console.log(elapsed / 1000); // 1000 means milisecond 
 
-    //Problem
-    
+    //  if you need days  then multiply all the values (1000*60*60*24)
