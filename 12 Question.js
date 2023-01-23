@@ -4,17 +4,27 @@
 //             - DD / MM / YYYY HH: mm
 
 
-// let day = new Date("2023-01-22")
-// let d1 = day.split("T")
-// console.log(d1)
+// ToDateString
+
+let now = new Date()
+// let res = now.toDateString()
+// console.log(res)
 
 
-// let d = new Date().toLocaleDateString()
-// console.log(d)
+let result =(now.getDate()+"-"+now.getMonth()+1+"-"+now.getFullYear()+" " + now.getHours())+": "+ now.getMinutes()
+console.log(result)
 
 
-var new1 = (new Date()).toLocaleString().replace('T', ' ').split('.')
+let res =(now.getDate()+"/"+now.getMonth()+1+"/"+now.getFullYear()+" " + now.getHours())+":"+ now.getMinutes()
+console.log(res)
 
-var new2 = (new Date()).toISOString().replace('T', ' ').split('.')
-console.log(new1)
-console.log(new2)
+
+
+
+
+
+
+
+
+
+

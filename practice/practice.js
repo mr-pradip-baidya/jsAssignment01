@@ -82,10 +82,15 @@ const user = {
    // goal is get true length of strings
 
 
-   String.prototype.truelength = function(){
-    console.log(`This true length is : ${this.trim().length}`)
-   };
-   let myName = "pradip   ";
+//    String.prototype.truelength = function(){
+//     console.log(`This true length is : ${this.trim().length}`)
+//    };
+//    let myName = "pradip   ";
+
+//date
+
+var date = Date()
+console.log(date )
 
 
 
