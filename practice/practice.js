@@ -37,16 +37,16 @@ let heroPower = {
     thor : "hammer",
     spiderman : "sling",
     getSpiderPower : function (){
-        console.log(`The spidy power is ${this.spidermanj}`)
+        // console.log(`The spidy power is ${this.spidermanj}`)
     }
 }
 
 Object.prototype.messi = function(){
-    console.log(`messi is present in all object`)
+    // console.log(`messi is present in all object`)
 } 
 
 Object.prototype.hitesh = function(){
-    console.log(`this is dcHero property ${dcHeros}`)
+    // console.log(`this is dcHero property ${dcHeros}`)
 }
 
 myHeros.messi()
@@ -76,7 +76,7 @@ const user = {
 
 //    for binding two properties
 
-   Object.setPrototypeOf(teacher,user)
+//    Object.setPrototypeOf(teacher,user)
 
 
    // goal is get true length of strings
@@ -90,7 +90,7 @@ const user = {
 //date
 
 var date = Date()
-console.log(date )
+console.log(date)
 
 
 

@@ -20,11 +20,11 @@
 // (a)
 
 for (var i = 1; i <= 3; i++) {
-  console.log("* ".repeat(i));
+  // console.log("* ".repeat(i));
 }
  //or
 
-//  for(let i=1; i<4; i++){
-//   for(let j=1; j<=4; j++)
-  // console.log(i)
-//  }
+function squareStar(){
+
+}
+squareStar()

@@ -11,9 +11,14 @@
 
     <h1 id="result"></h1>
     <script>
+      //Basic
       var date = Date();
-      var date2 = Date();
-      document.getElementById(result).innerHTML = date2;
+
+      //CONTROL DATE (FORMAT)
+      var date2 = new Date("Mar 12 1992");
+      var date3 = new Date();
+
+      document.getElementById("result").innerHTML = date3.getFullYear();
     </script>
   </body>
 </html>
